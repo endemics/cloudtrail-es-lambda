@@ -1,0 +1,23 @@
+{
+  "name": "cloudtrail_es_lambda",
+  "version": "0.1.0",
+  "description": "Pull cloudtrail logs from S3 on S3 events and feed them to ElasticSearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gildas Le Nadan",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.5",
+    "grunt-aws-lambda": "~0.11.0",
+    "uglify-js": "~2.6.1"
+  },
+  "dependencies": {
+    "zlib": "~1.0.5",
+    "async": "~1.5.0",
+    "aws-sdk": "~2.2.19",
+    "path": "~0.12.7"
+  }
+}

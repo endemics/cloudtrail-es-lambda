@@ -1,0 +1,620 @@
+[
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "Autoscaling",
+    "_score": 1,
+    "_source": {
+      "title": "Autoscaling",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:autoscaling.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "CloudWatch",
+    "_score": 1,
+    "_source": {
+      "title": "CloudWatch",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:monitoring.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "DynamoDB",
+    "_score": 1,
+    "_source": {
+      "title": "DynamoDB",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:dynamodb.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "Kinesis",
+    "_score": 1,
+    "_source": {
+      "title": "Kinesis",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:kinesis.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "EMR",
+    "_score": 1,
+    "_source": {
+      "title": "EMR",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:elasticmapreduce.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "KMS",
+    "_score": 1,
+    "_source": {
+      "title": "KMS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:kms.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Root",
+    "_score": 1,
+    "_source": {
+      "title": "Root",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "Root",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "AssumedRole",
+    "_score": 1,
+    "_source": {
+      "title": "AssumedRole",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"userIdentity.type:AssumedRole\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "IAMUser",
+    "_score": 1,
+    "_source": {
+      "title": "IAMUser",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"userIdentity.type:IAMUser\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "ELB",
+    "_score": 1,
+    "_source": {
+      "title": "ELB",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:elasticloadbalancing.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "Sign-In",
+    "_score": 1,
+    "_source": {
+      "title": "Sign In",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:signin.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "Root",
+    "_score": 1,
+    "_source": {
+      "title": "Root",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"userIdentity.type:Root\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "EC2",
+    "_score": 1,
+    "_source": {
+      "title": "EC2",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:ec2.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "IAM",
+    "_score": 1,
+    "_source": {
+      "title": "IAM",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:iam.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "SNS",
+    "_score": 1,
+    "_source": {
+      "title": "SNS",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "eventTime",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:sns.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Assume-Role",
+    "_score": 1,
+    "_source": {
+      "title": "Assume Role",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "AssumedRole",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Autoscaling",
+    "_score": 1,
+    "_source": {
+      "title": "Autoscaling",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "Autoscaling",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "CloudWatch",
+    "_score": 1,
+    "_source": {
+      "title": "CloudWatch",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "CloudWatch",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "DynamoDB",
+    "_score": 1,
+    "_source": {
+      "title": "DynamoDB",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "DynamoDB",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Kinesis",
+    "_score": 1,
+    "_source": {
+      "title": "Kinesis",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "Kinesis",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "EC2",
+    "_score": 1,
+    "_source": {
+      "title": "EC2",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "EC2",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "EMR",
+    "_score": 1,
+    "_source": {
+      "title": "EMR",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "EMR",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "IAM",
+    "_score": 1,
+    "_source": {
+      "title": "IAM",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "IAM",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "SNS",
+    "_score": 1,
+    "_source": {
+      "title": "SNS",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "SNS",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "search",
+    "_id": "AWS-Console-Sign-In",
+    "_score": 1,
+    "_source": {
+      "title": "AWS Console Sign In",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "userIdentity.type",
+        "userAgent",
+        "eventName",
+        "eventType",
+        "sourceIPAddress",
+        "awsRegion"
+      ],
+      "sort": [
+        "eventTime",
+        "asc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"fragment_size\":2147483647},\"filter\":[],\"query\":{\"query_string\":{\"query\":\"eventSource:signin.amazonaws.com\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Activity-IAM-user",
+    "_score": 1,
+    "_source": {
+      "title": "Activity IAM user",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"mode\":\"stacked\",\"defaultYExtents\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"eventTime\",\"interval\":\"minute\",\"min_doc_count\":1,\"extended_bounds\":{}}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "IAMUser",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Activity-by-user-type",
+    "_score": 1,
+    "_source": {
+      "title": "Activity by user type",
+      "visState": "{\"type\":\"markdown\",\"params\":{\"markdown\":\"ACTIVITY BY USER TYPE\"},\"aggs\":[],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Activity-by-source",
+    "_score": 1,
+    "_source": {
+      "title": "Activity by source",
+      "visState": "{\"type\":\"markdown\",\"params\":{\"markdown\":\"ACTIVITY BY SOURCE\"},\"aggs\":[],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "TOP-N-REPORTS-BANNER",
+    "_score": 1,
+    "_source": {
+      "title": "TOP N REPORTS BANNER",
+      "visState": "{\"type\":\"markdown\",\"params\":{\"markdown\":\"TOP N REPORTS\"},\"aggs\":[],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "EVENTS-BANNER",
+    "_score": 1,
+    "_source": {
+      "title": "EVENTS BANNER",
+      "visState": "{\"type\":\"markdown\",\"params\":{\"markdown\":\"EVENTS\"},\"aggs\":[],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Top-10-sources",
+    "_score": 1,
+    "_source": {
+      "title": "Top 10 sources",
+      "visState": "{\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"eventSource\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"cloudtrail\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "visualization",
+    "_id": "Top-10-Sources-with-Root-access",
+    "_score": 1,
+    "_source": {
+      "title": "Top 10 Sources with Root access",
+      "visState": "{\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"eventSource\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "description": "",
+      "savedSearchId": "Root",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_index": ".kibana-4",
+    "_type": "dashboard",
+    "_id": "CloudTrail-Dashboard",
+    "_score": 1,
+    "_source": {
+      "title": "CloudTrail Dashboard",
+      "hits": 0,
+      "description": "CloudTrail Dashboard",
+      "panelsJSON": "[\n  {\n    \"col\": 1,\n    \"id\": \"Root\",\n    \"row\": 7,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"EC2\",\n    \"row\": 2,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 4,\n    \"id\": \"Autoscaling\",\n    \"row\": 2,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"Kinesis\",\n    \"row\": 2,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 10,\n    \"id\": \"DynamoDB\",\n    \"row\": 2,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"EMR\",\n    \"row\": 4,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 4,\n    \"id\": \"IAM\",\n    \"row\": 4,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"CloudWatch\",\n    \"row\": 4,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 10,\n    \"id\": \"SNS\",\n    \"row\": 4,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"Activity-by-source\",\n    \"row\": 1,\n    \"size_x\": 12,\n    \"size_y\": 1,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"Activity-by-user-type\",\n    \"row\": 6,\n    \"size_x\": 12,\n    \"size_y\": 1,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 4,\n    \"id\": \"Activity-IAM-user\",\n    \"row\": 7,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 7,\n    \"id\": \"Assume-Role\",\n    \"row\": 7,\n    \"size_x\": 3,\n    \"size_y\": 2,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"EVENTS-BANNER\",\n    \"row\": 15,\n    \"size_x\": 12,\n    \"size_y\": 1,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"AWS-Console-Sign-In\",\n    \"row\": 16,\n    \"size_x\": 12,\n    \"size_y\": 7,\n    \"type\": \"search\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"TOP-N-REPORTS-BANNER\",\n    \"row\": 9,\n    \"size_x\": 12,\n    \"size_y\": 1,\n    \"type\": \"visualization\"\n  },\n  {\n    \"col\": 1,\n    \"id\": \"Top-10-sources\",\n    \"row\": 10,\n    \"size_x\": 6,\n    \"size_y\": 5,\n    \"type\": \"visualization\"\n  },\n  {\n    \"id\": \"Top-10-Sources-with-Root-access\",\n    \"type\": \"visualization\",\n    \"size_x\": 6,\n    \"size_y\": 5,\n    \"col\": 7,\n    \"row\": 10\n  }\n]",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"filter\": [\n    {\n      \"query\": {\n        \"query_string\": {\n          \"analyze_wildcard\": true,\n          \"query\": \"*\"\n        }\n      }\n    }\n  ]\n}"
+      }
+    }
+  }
+]
